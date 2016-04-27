@@ -22,7 +22,15 @@
 	font-style: normal;
 }
 
-html, body {font-family: 'PT Sans';}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'PT Sans';
+    height: 100%;
+}
 
 img {max-width: 100%;}
 
@@ -38,6 +46,15 @@ h3 {color: #000;}
    opacity: 1;
 }
 :-ms-input-placeholder {color: #283246;}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+.content {
+    padding-bottom: 90px;
+}
 
 .logo {
     text-align: center;
@@ -336,7 +353,9 @@ header {border-bottom: 4px solid #f5a3b0;}
 
 .name-company {font-size: 20px;}
 
-.block-many-link {margin-bottom: 63px;}
+.block-many-link {
+    margin-bottom: 63px;
+}
 
 .block-many-link h3 {
     margin-top: 67px;
@@ -358,6 +377,10 @@ header {border-bottom: 4px solid #f5a3b0;}
 footer {
     min-height: 128px;
     background: #555;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-menu {
