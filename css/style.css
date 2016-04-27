@@ -1,0 +1,148 @@
+@font-face {
+	font-family: 'PT Sans';
+	src: url('../fonts/PTSans-Regular.eot');
+	src: url('../fonts/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PTSans-Regular.woff2') format('woff2'),
+		url('../fonts/PTSans-Regular.woff') format('woff'),
+		url('../fonts/PTSans-Regular.ttf') format('truetype'),
+		url('../fonts/PTSans-Regular.svg#PTSans-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AGAvantGardeCyr';
+	src: url('../fonts/AGAvantGardeCyrBook.eot');
+	src: url('../fonts/AGAvantGardeCyrBook.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AGAvantGardeCyrBook.woff2') format('woff2'),
+		url('../fonts/AGAvantGardeCyrBook.woff') format('woff'),
+		url('../fonts/AGAvantGardeCyrBook.ttf') format('truetype'),
+		url('../fonts/AGAvantGardeCyrBook.svg#AGAvantGardeCyrBook') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body {font-family: 'PT Sans';}
+
+img {max-width: 100%;}
+
+.logo {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header {border-bottom: 4px solid #f5a3b0;}
+
+.header-menu .navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.header-menu  {
+    background-color: transparent;
+    border: 0;
+    margin-bottom: 33px;
+}
+
+.header-menu .navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.header-menu .navbar-nav li a {
+    font-size: 14px;
+    color: #9797a2;
+}
+
+.header-menu .navbar-nav li a span {font-size: 12px;}
+
+.block-search {
+    background: url('../img/bg_filter.png') no-repeat center center;
+    width: 100%;
+    height: 280px;
+}
+
+.line-search {
+    width: 100%;
+    height: 77px;
+    background: #f5a3b0;
+    margin-top: 176px;
+}
+
+.form-field.town,
+.form-field.type,
+.form-field.price,
+.form-field.bd,
+.form-field.td,
+.form-field.sqft {
+    width: 25%;
+    background-color: #e4e4e4;
+    float: left;
+    padding: 20px 10px 20px 10px;
+    height: 77px;
+}
+
+.form-field.type,
+.form-field.price {
+    width: 17%;
+}
+
+.form-field.bd,
+.form-field.td {width: 7%;}
+
+.form-field.sqft {width: 12%;}
+
+.form-field.submit {
+    background-color: transparent;
+    padding: 19px 0 19px 20px;
+    position: relative;
+    text-align: center;
+    width: 15%;
+    float: left;
+}
+
+.form-field.submit::before {
+    border-bottom: 78px solid transparent;
+    border-left: 20px solid #e4e4e4;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.form-field select {
+    width: 100%;
+    height: 37px;
+    border: 0;
+    outline: none;
+    font-size: 13px;
+}
+
+.form-field button {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    font-size: 13px;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    vertical-align: top;
+    color: #fff;
+    font-family: 'AGAvantGardeCyr';
+    outline: none;
+}
+
+.block-courusel h3 {
+    color: #000;
+    margin-top: 56px;
+}
+
+.item {
+    width: 300px;
+    height: 300px;
+    background: #24a556;
+}
+

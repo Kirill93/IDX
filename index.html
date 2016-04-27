@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div class="logo"><img src="img/logo.png" alt=""></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-default header-menu">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#">HOME</a></li>
+                                    <li><a href="#">SALES <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
+                                    <li><a href="#">RENTALS <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
+                                    <li><a href="#">NEW CONSTRUCTION <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
+                                    <li><a href="#">RESOURCES <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
+                                    <li><a href="#">LIST YOUR PROPERTY</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+</header>
+<div class="clearfix"></div>
+<section data-role="section" class="block-search">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="line-search">
+                        <div class="form-field town">
+                            <select> 
+                                <option value="1">Apple</option> 
+                                <option value="2">Banana</option> 
+                                <option value="3">Cherries</option> 
+                            </select>
+                        </div>
+                        <div class="form-field type">
+                            <select> 
+                                <option value="1">Apple</option> 
+                                <option value="2">Banana</option> 
+                                <option value="3">Cherries</option> 
+                            </select>
+                        </div>
+                        <div class="form-field price">
+                            <select> 
+                                <option value="1">Apple</option> 
+                                <option value="2">Banana</option> 
+                                <option value="3">Cherries</option> 
+                            </select>
+                        </div>
+                        <div class="form-field bd">
+                            <select> 
+                                <option value="1">Apple</option> 
+                                <option value="2">Banana</option> 
+                                <option value="3">Cherries</option> 
+                            </select>
+                        </div>
+                        <div class="form-field td">
+                            <select> 
+                                <option value="1">Apple</option> 
+                                <option value="2">Banana</option> 
+                                <option value="3">Cherries</option> 
+                            </select>
+                        </div>
+                        <div class="form-field sqft">
+                            <select> 
+                                <option value="1">Apple</option> 
+                                <option value="2">Banana</option> 
+                                <option value="3">Cherries</option> 
+                            </select>
+                        </div>
+                        <div class="form-field submit">
+                            <button type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> SEARCH</button>
+                            <button class="refine"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<div class="clearfix"></div>
+<section data-role="section" class="block-courusel">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><h3>NEW TO MARKET</h3></div>
+        </div>
+    </div>
+<div class="clearfix"></div>
+<div class="owl-carousel">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+</div>
+</section>
+<script>
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+});
+    });
+</script>
+</body>
+</html>
