@@ -141,8 +141,102 @@ header {border-bottom: 4px solid #f5a3b0;}
 }
 
 .item {
-    width: 300px;
-    height: 300px;
-    background: #24a556;
+    width: 221px;
+    height: 279px;
+    margin-top: 21px;
+    position: relative;
+}
+
+.see-all {
+    font-size: 10px;
+    background: #555;
+    border-radius: 4px;
+    color: #e4e4e4;
+    border: 0;
+    padding: 8px 9px;
+    margin-top: 47px;
+}
+
+.block-courusel .col-md-6 + .col-md-6 {text-align: right;}
+
+.block-slider {
+    height: 319px;
+    background: #d3d3d3;
+}
+
+.block-slider .owl-controls .owl-prev {
+    position: absolute;
+    top: 0;
+    width: 12px;
+    height: 319px;
+    background: #949494;
+    color: #fff;
+    line-height: 319px;
+    font-size: 11px;
+    text-align: left;
+}
+
+.block-slider .owl-controls .owl-next {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 12px;
+    height: 319px;
+    background: #949494;
+    color: #fff;
+    line-height: 319px;
+    font-size: 11px;
+    text-align: right;
+}
+
+.info-house {
+    width: 100%;
+    height: 61px;
+    background: #ebebeb;
+    border-top: 4px solid #f5a3b0;
+    text-align: center;
+}
+
+.price-house {
+    font-size: 12px;
+    color: #555;
+    margin-top: 12px;
+    text-align: center;
+    font-family: 'AGAvantGardeCyr';
+}
+
+.bed {
+    background: url('../img/bed-icon.png') no-repeat;
+    height: 10px;
+    font-size: 12px;
+    color: #555;
+    font-family: 'AGAvantGardeCyr';
+    padding-left: 26px;
+    line-height: 10px;
+    display: inline-block;
+}
+
+.drop {
+    background: url('../img/drop-icon.png') no-repeat;
+    height: 14px;
+    font-size: 12px;
+    color: #555;
+    font-family: 'AGAvantGardeCyr';
+    padding-left: 15px;
+    line-height: 14px;
+    display: inline-block;
+}
+
+.caption-slide {
+    color: #fff;
+    width: 183px;
+    height: 47px;
+    background: rgba(85, 85, 85, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'AGAvantGardeCyr';
 }
 
