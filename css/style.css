@@ -26,6 +26,19 @@ html, body {font-family: 'PT Sans';}
 
 img {max-width: 100%;}
 
+h3 {color: #000;}
+
+::-webkit-input-placeholder {color: #283246;}
+:-moz-placeholder {
+   color: #283246;
+   opacity: 1;
+}
+::-moz-placeholder {
+   color: #283246;
+   opacity: 1;
+}
+:-ms-input-placeholder {color: #283246;}
+
 .logo {
     text-align: center;
     margin-top: 15px;
@@ -233,10 +246,148 @@ header {border-bottom: 4px solid #f5a3b0;}
     height: 47px;
     background: rgba(85, 85, 85, 0.5);
     position: absolute;
-    top: 0;
+    top: 19px;
     left: 0;
     text-align: center;
     text-transform: uppercase;
     font-family: 'AGAvantGardeCyr';
 }
 
+.block-featured h3,
+.block-contact h3 {
+    margin-top: 57px;
+    margin-bottom: 29px;
+}
+
+.title-text-featured {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.block-form {
+    width: 568px;
+    height: 166px;
+    border: 2px solid #b1b1b1;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+.block-form input {
+    width: 33.3%;
+    float: left;
+    border-bottom: 2px solid #b1b1b1;
+    border-left: 0;
+    border-top: 0;
+    border-right: 2px solid #b1b1b1;
+    height: 31px;
+    padding-left: 15px;
+    color: #283246;
+    font-weight: 700;
+}
+
+.block-form textarea {
+    width: 100%;
+    height: 131px;
+    resize: none;
+    border: 0;
+    padding-left: 15px;
+    color: #283246;
+    font-weight: 700;
+}
+
+.block-submit {
+    height: 166px;
+    border-bottom: 2px solid #b1b1b1;
+    border-top: 2px solid #b1b1b1;
+    border-left: 0;
+    border-right: 2px solid #b1b1b1;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px;
+}
+
+.block-submit input {
+    width: 138px;
+    height: 100%;
+    background: #f5a3b0;
+    outline: none;
+    border: 0;
+    color: #fff;
+}
+
+.block-contact-info {
+    color: #283246;
+    font-size: 14px;
+}
+
+.name-company {font-size: 20px;}
+
+.block-many-link {margin-bottom: 63px;}
+
+.block-many-link h3 {
+    margin-top: 67px;
+    margin-bottom: 25px;
+}
+
+.block-many-link span {
+    font-size: 10px;
+    color: #f5a3b0;
+}
+
+.block-many-link a {
+    font-size: 14px;
+    color: #555;
+}
+
+.block-many-link .col-md-2 div {margin-bottom: 18px;}
+
+footer {
+    min-height: 128px;
+    background: #555;
+}
+
+.footer-menu {
+    text-align: center;
+    padding-top: 45px;
+}
+
+.footer-menu ul {padding: 0;}
+
+.footer-menu ul li {
+    display: inline;
+    border-left: 1px solid #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.footer-menu ul li:first-child {
+    border: 0;
+    padding-left: 0;
+}
+
+.footer-menu ul li:last-child {padding-right: 0;}
+
+.footer-menu ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.copiright {
+    color: #f5a3b0;
+    margin-top: 34px;
+    text-align: center;
+}
