@@ -50,6 +50,7 @@
             <div class="row  block-search--margin">
                 <div class="col-md-12">
                     <div class="line-search">
+                      <form action="" id="search-form">
                         <div class="form-field town">
                             <select>
                                 <option value="1">Apple</option>
@@ -92,12 +93,51 @@
                                 <option value="3">Cherries</option>
                             </select>
                         </div>
-                        <div class="form-field submit">
-                            <button type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> SEARCH</button>
-                            <button class="refine"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>
-                        </div>
+                      </form>
+                      <div class="form-field submit">
+                          <button type="submit" forform="search-form"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> SEARCH</button>
+                          <button class="refine"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>
+                      </div>
                         <div class="slide-menu">
-                          123
+                          <div class="wrap-label">
+                            <label for="address">ADDRESS</label>
+                            <input type="text" value="" id="address">
+                          </div>
+                          <div class="wrap-label">
+                            <label for="number">MLS® NUMBER</label>
+                            <input type="text" value="" id="number">
+                          </div>
+                          <div class="advanced"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> ADVANCED OPTION</div>
+                          <div class="slide-menu-under">
+                            <div class="col-md-3">
+                              <label for="prop-feat">PROPERTY FEATURES</label>
+                              <input type="checkbox" id="prop-feat"> PARKING<br/>
+                              <input type="checkbox" id="prop-feat"> LAUNDRY
+                            </div>
+                            <div class="col-md-3">
+                              <input type="checkbox" id="prop-feat"> PET FRIENDLY
+                            </div>
+                            <div class="col-md-3">
+                              <input type="checkbox" id="prop-feat"> TERRACE
+                            </div>
+                            <div class="col-md-3">
+                              <input type="checkbox" id="prop-feat"> ELEVATOR
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-md-3">
+                              <label for="prop-feat">DAYS ON MARKET</label>
+                              <input type="radio" id="prop-feat"> PARKING<br/>
+                            </div>
+                            <div class="col-md-3">
+                              <input type="radio" id="prop-feat"> NEW LISTINGS (1 DAY)<br/>
+                            </div>
+                            <div class="col-md-3">
+                              <input type="radio" id="prop-feat"> THIS WEEK (7 DAYS)<br/>
+                            </div>
+                            <div class="col-md-3">
+                              <input type="radio" id="prop-feat"> LAST 30 DAYS<br/>
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -439,8 +479,12 @@ $(document).ready(function(){
         }
     });
     $(".slide-menu").css({"display": "none"});
+    $(".slide-menu-under").css({"display": "none"});
     $(".refine").on("click", function(){
       $(".slide-menu").slideToggle("slow");
+    });
+    $(".advanced").on("click", function(){
+      $(".slide-menu-under").slideToggle("slow");
     });
 });
 </script>
