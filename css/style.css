@@ -52,9 +52,7 @@ h3 {color: #000;}
     min-height: 100%;
 }
 
-.content {
-    padding-bottom: 90px;
-}
+.content {padding-bottom: 90px;}
 
 .logo {
     text-align: center;
@@ -95,9 +93,7 @@ header {border-bottom: 4px solid #f5a3b0;}
     height: 280px;
 }
 
-.block-search--margin {
-	margin-bottom: 45px;
-}
+.block-search--margin {margin-bottom: 45px;}
 
 .line-search {
     width: 100%;
@@ -121,9 +117,7 @@ header {border-bottom: 4px solid #f5a3b0;}
 }
 
 .form-field.type,
-.form-field.price {
-    width: 17%;
-}
+.form-field.price {width: 17%;}
 
 .form-field.bd,
 .form-field.td {width: 7%;}
@@ -362,9 +356,7 @@ header {border-bottom: 4px solid #f5a3b0;}
 
 .name-company {font-size: 20px;}
 
-.block-many-link {
-    margin-bottom: 63px;
-}
+.block-many-link {margin-bottom: 63px;}
 
 .block-many-link h3 {
     margin-top: 67px;
@@ -433,52 +425,50 @@ footer {
 }
 
 .slide-menu-under {
-	width: 100%;
-	color: #fff;
-	padding-bottom: 15px;
-	overflow: auto;
+		width: 100%;
+		color: #fff;
+		padding-bottom: 15px;
+		overflow: auto;
 }
 
 .slide-menu-under .col-md-3 label {
-	color: #fff;
-	display: block;
+		color: #fff;
+		display: block;
 }
 
-.label--margin {
-	margin-top: 20px;
-}
+.label--margin {margin-top: 20px;}
 
 .wrap-label {
-	display: inline-block;
-	margin-left: 15px;
-	margin-top: 15px;
+		display: inline-block;
+		margin-left: 15px;
+		margin-top: 15px;
 }
 
 .wrap-label input {
-	width: 320px;
-	height: 31px;
-	outline: none;
-	border: 0;
-	padding-left: 15px;
+		width: 320px;
+		height: 31px;
+		outline: none;
+		border: 0;
+		padding-left: 15px;
 }
 
 .wrap-label label {
-	display: block;
-	color: #fff;
+		display: block;
+		color: #fff;
 }
 
 .advanced {
-	font-size: 18px;
-	color: #fff;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	cursor: pointer;
+		font-size: 18px;
+		color: #fff;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		cursor: pointer;
 }
 
 .advanced span {
-	color: #fff;
-	font-size: 18px;
+		color: #fff;
+		font-size: 18px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
@@ -519,8 +509,6 @@ footer {
 			background-color: #f5a3b0;
 		}
 		.block-search {height: auto;}
-		.line-search {
-			margin-top: 45px;
-		}
+		.line-search {margin-top: 45px;}
 		.slide-menu {top: 308px;}
 }
