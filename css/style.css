@@ -60,6 +60,8 @@ h3 {color: #000;}
     margin-bottom: 15px;
 }
 
+.logo img {padding: 10px;}
+
 header {border-bottom: 4px solid #f5a3b0;}
 
 .header-menu .navbar-nav {
@@ -481,9 +483,21 @@ footer {
 	.block-submit input {width: 100%;}
 }
 
+@media screen and (max-width: 320px) {
+		.form-field button {margin-top: 5px;}
+		.form-field.submit::before {
+			border-bottom: 0;
+			border-left: 0;
+		}
+		.form-field.submit {padding: 15px 0 17px 0px;}
+		.header-menu .navbar-nav > li {display: block;}
+		h3 {font-size: 20px;}
+}
+
 @media screen and (max-width: 420px) {
 		.block-form input,
-		.block-form textarea {font-size: 13px;}
+		.block-form textarea {font-size: 9px;}
+		.wrap-label input {width: 245px;}
 }
 
 @media screen and (max-width: 768px) {
